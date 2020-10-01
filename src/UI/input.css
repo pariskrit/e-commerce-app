@@ -1,0 +1,18 @@
+.input {
+  width: 100%;
+  display: block;
+  margin: 10px 0;
+}
+
+.inputField {
+  display: block;
+  width: 100%;
+}
+.inputField:focus {
+  outline: none;
+}
+
+.valid {
+  border: 1px solid red;
+  background-color: rgb(240, 102, 102);
+}

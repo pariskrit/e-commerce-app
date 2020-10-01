@@ -1,0 +1,48 @@
+.sidemenu {
+  position: fixed;
+  width: 280px;
+  height: 50%;
+  z-index: 100;
+  background-color: white;
+  top: 0;
+  left: 0;
+  transition: transform 0.3s ease-out;
+}
+.sidemenu__header {
+  position: relative;
+}
+
+.sidemenu__cross {
+  color: red !important;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+.sidemenu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.sidemenu ul li {
+  margin: 1em;
+}
+.sidemenu ul li:hover {
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+.sidemenu ul li a {
+  text-decoration: none;
+  color: gray;
+  font-size: 0.9rem;
+}
+
+.close {
+  transform: translateX(-100%);
+}
+
+@media (min-width: 550px) {
+  .sidemenu {
+    display: none;
+  }
+}

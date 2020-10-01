@@ -1,0 +1,49 @@
+.footer {
+  width: 80%;
+  margin: 50px auto;
+}
+
+.footer__options ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer__options ul li {
+  list-style-type: none;
+}
+
+.footer__options ul li:hover {
+  color: gray;
+  cursor: pointer;
+}
+
+.footer__socialmedia {
+  display: flex;
+  width: 20%;
+  margin: 50px auto;
+}
+
+.icons {
+  margin: 0 0.2em;
+}
+
+.icons:hover {
+  color: gray !important;
+  cursor: pointer;
+}
+
+.footer__description {
+  width: 25%;
+  margin: auto;
+}
+
+.footer__paymentoption {
+  display: flex;
+  width: 20%;
+  margin: auto;
+}
+
+.footer__paymentoption img {
+  height: 40px;
+  object-fit: contain;
+}

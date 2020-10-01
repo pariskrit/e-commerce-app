@@ -1,0 +1,18 @@
+.shirtcollections {
+  width: 75%;
+  margin: 8% auto;
+}
+
+.shirtcollections h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  color: #847b7b;
+}
+
+.shirtcollections__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 40px;
+}

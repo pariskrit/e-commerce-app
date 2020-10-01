@@ -1,0 +1,35 @@
+.aboutme {
+  display: flex;
+  flex-direction: column;
+  flex-flow: column-reverse;
+  width: 80%;
+  margin: auto;
+}
+
+.image img {
+  margin-bottom: 1em;
+  width: 100%;
+}
+
+@media (min-width: 700px) {
+  .aboutme {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .description {
+    flex: 0.6;
+  }
+
+  .description h2 {
+    margin-bottom: 1em;
+  }
+
+  .image {
+    flex: 0.3;
+  }
+  .image img {
+    width: 100%;
+  }
+}
