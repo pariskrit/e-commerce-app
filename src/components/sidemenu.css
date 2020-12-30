@@ -1,19 +1,20 @@
 .sidemenu {
   position: fixed;
-  width: 280px;
+  width: 200px;
   height: 50%;
   z-index: 100;
   background-color: white;
   top: 0;
   left: 0;
-  transition: transform 0.3s ease-out;
+  border-radius: 20px;
+  transition: all 0.5s ease;
 }
 .sidemenu__header {
   position: relative;
 }
 
 .sidemenu__cross {
-  color: red !important;
+  color: gray !important;
   position: absolute;
   top: 0;
   right: 0;
@@ -26,6 +27,7 @@
 }
 .sidemenu ul li {
   margin: 1em;
+  transition: background-color 0.3s ease;
 }
 .sidemenu ul li:hover {
   background-color: whitesmoke;
@@ -39,6 +41,7 @@
 
 .close {
   transform: translateX(-100%);
+  border-radius: 50%;
 }
 
 @media (min-width: 550px) {

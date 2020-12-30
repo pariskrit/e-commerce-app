@@ -8,12 +8,12 @@ function SideMenu({ closeMenu, close }) {
   if (!close) {
     classes = ["sidemenu", "close"];
   } else {
-    classes = ["sidemenu", "open"];
+    classes = ["sidemenu"];
   }
   return (
     <div className={classes.join(" ")}>
       <div className="sidemenu__header">
-        <h1>Shit</h1>
+        <h1>MaStyle</h1>
         <CancelOutlinedIcon className="sidemenu__cross" onClick={closeMenu} />
       </div>
 

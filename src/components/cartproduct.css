@@ -4,35 +4,30 @@
   align-items: center;
   border-bottom: 1px solid;
 }
-
 .product__details img {
-  flex: 0.1;
+  flex: 0.2;
   width: 10%;
   height: 100px;
   object-fit: contain;
 }
-
 .product__details p:nth-child(5) {
   flex: 0.2;
   text-align: right;
 }
-
 .product__details p:nth-child(3) {
   flex: 0.1;
 }
-
 .product__input {
   flex: 0.1;
   text-align: right;
 }
 .product__input input {
-  width: 50%;
-  padding: 10px 5px;
+  width: 100%;
 }
 .product__types {
   flex: 0.5;
+  font-size: 14px;
 }
-
 .product__types button {
   padding: 5px 10px;
   background-color: #f3e0e0;
@@ -46,4 +41,13 @@
 }
 .product__types p {
   margin: 0;
+}
+
+@media (min-width: 700px) {
+  .product__details img {
+    flex: 0.1;
+  }
+  .product__types {
+    font-size: 16px;
+  }
 }

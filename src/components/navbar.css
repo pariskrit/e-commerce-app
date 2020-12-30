@@ -77,7 +77,7 @@
 
 @media (max-width: 500px) {
   .navbar {
-    margin: 0;
+    margin: 10px 0;
   }
 
   .menuicon {
@@ -87,5 +87,9 @@
 
   .navbar__left {
     display: none;
+  }
+
+  .navbar__right {
+    flex: 0.3;
   }
 }

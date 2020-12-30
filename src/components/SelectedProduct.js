@@ -6,7 +6,6 @@ import * as actionTypes from "../store/actions/actionTypes";
 import * as basketActionCreaters from "../store/actions/BasketActionCreater";
 
 function SelectedProduct(props) {
-  console.log(props.Tshirt);
   return (
     <div className="selectedproduct">
       <div className="container">

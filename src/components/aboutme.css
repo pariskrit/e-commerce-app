@@ -6,9 +6,13 @@
   margin: auto;
 }
 
+.description h2 {
+  text-align: center;
+}
+
 .image img {
-  margin-bottom: 1em;
-  width: 100%;
+  margin: 10px 0;
+  width: 80%;
 }
 
 @media (min-width: 700px) {
